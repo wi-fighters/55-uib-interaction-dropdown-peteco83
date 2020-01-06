@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* nav {
+
+} */
+
+nav {
+    display: block;
+}
+
+.container {
+    width: 100vw;
+    background-color: rgb(112, 112, 243);
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container>li{
+    display: inline;
+    padding-right: 50px;
+    
+
+}
+
+.divabout {
+    display: inline-block;
+}
+
+.about, .services, .contact {
+    /* flex-direction: column; */
+    background-color: lightblue;
+    /* display: none; */
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+li {
+    display: inline;
+    list-style: none;
+    padding-left: 30px;
+}
+
+.container .first-link:hover >.about{
+    display: block;
+}
