@@ -18,6 +18,11 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    
+}
+
+.container ul {
+    transition: 1s ease;
 }
 
 .container li{
@@ -62,16 +67,20 @@ body {
 
 }
 
+.first:hover, .second:hover, .third:hover {
+    transition: 1s ease;
+}
+
 .first:hover .about{
-    display: flex;
+    display: block;
 }
 
 .second:hover .services{
-    display: flex;
+    display: block;
 }
 
 .third:hover .contact{
-    display: flex;
+    display: block;
 }
 
 .list-item:hover {
