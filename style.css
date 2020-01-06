@@ -1,60 +1,65 @@
 * {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
-/* .topnav {
+.topnav {
     display: block;
+    width: 100%;
+    height: 8rem;
+    position: absolute;
+} 
+
+/* body {
+    overflow: hidden;
 } */
 
-body {
-    overflow: hidden;
-}
-
 .container {
-    width: 100vw;
+    width: 100%;
     background-color: rgb(112, 112, 243);
-    height: 50px;
+    height: 8rem;
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+    justify-content: flex-start;
+
 }
 
-.container ul {
+/* .container ul {
     transition: 1s ease;
-}
+} */
 
-.container li{
+/* .container li{
     
-    list-style: none;
+    
 
-}
+} */
 
 .container>li {
-    display: inline;
+    /* display: inline; */
     padding-left: 30px;
     padding-right: 50px;
-}
+} 
 
 
 
-.about, .services, .contact {
+.list {
     /* flex-direction: column; */
-    /* background-color: lightblue; */
+    background-color: lightblue;
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 50px;
-    width: 100vw;
+    top: 5rem;
+    width: 100%;
     padding-top: 15px;
 }
 
-.about>li, .services>li, .contact>li {
+.list>li {
     padding: 0 0 7px 0;
 }
 
-.about:before, .services:before, .contact:before {
+.list:before {
     content: '';
     background-color: lightblue;
     position: absolute;
@@ -63,24 +68,15 @@ body {
     top: 0px;
     left: -500px;
     z-index: -1;
-    
-
 }
 
-.first:hover, .second:hover, .third:hover {
-    transition: 1s ease;
+.list-item {
+    width: 100%;
+    height: auto;
 }
 
-.first:hover .about{
-    display: block;
-}
-
-.second:hover .services{
-    display: block;
-}
-
-.third:hover .contact{
-    display: block;
+.possibilities:hover .list{
+    display: flex;
 }
 
 .list-item:hover {
