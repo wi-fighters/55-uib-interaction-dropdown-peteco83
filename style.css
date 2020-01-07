@@ -18,7 +18,7 @@
 .container {
     width: 100%;
     background-color: rgb(112, 112, 243);
-    height: 8rem;
+    height: 4rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -26,15 +26,13 @@
 
 }
 
-/* .container ul {
-    transition: 1s ease;
-} */
-
-/* .container li{
+.possibilities {
+    /* width: 100%; */
+    padding-top: 50px;
+    height: 100%;
+    /* justify-content: center; */
     
-    
-
-} */
+}
 
 .container>li {
     /* display: inline; */
@@ -42,15 +40,13 @@
     padding-right: 50px;
 } 
 
-
-
 .list {
     /* flex-direction: column; */
     background-color: lightblue;
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 5rem;
+    top: 4rem;
     width: 100%;
     padding-top: 15px;
 }
