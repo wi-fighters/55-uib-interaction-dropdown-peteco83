@@ -28,8 +28,9 @@
 
 .possibilities {
     /* width: 100%; */
-    padding-top: 50px;
+    padding-top: 40px;
     height: 100%;
+    font-size: 1.5rem;
     /* justify-content: center; */
     
 }
@@ -49,6 +50,7 @@
     top: 4rem;
     width: 100%;
     padding-top: 15px;
+    
 }
 
 .list>li {
@@ -69,6 +71,7 @@
 .list-item {
     width: 100%;
     height: auto;
+    font-size: 1rem;
 }
 
 .possibilities:hover .list{
